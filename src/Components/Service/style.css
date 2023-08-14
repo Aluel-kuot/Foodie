@@ -1,0 +1,38 @@
+
+
+.services{
+    display: flex;
+    padding: 60px;
+}
+.service{
+    background-color:white;
+    padding-left: 170px;
+}
+h1{
+    color: black;
+    font-size: larger;
+}
+p{
+    color: #333;
+    font-size: medium;
+    padding: 10px;
+}
+@media (max-width: 768px) {
+    .services {
+      flex-direction: column; 
+      align-items: center; 
+      padding: 30px; 
+    }
+  
+    .service {
+      padding: 30px; 
+    }
+  
+    h1 {
+      font-size: large; 
+  
+    p {
+      font-size: small; 
+    }
+  }
+}

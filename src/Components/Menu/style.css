@@ -1,0 +1,38 @@
+
+
+  .container img {
+    max-width: 100%;
+    margin-bottom: 10px;
+    border: 5px solid red;
+    border-radius: 120px;
+  }
+
+  .container h1 {
+    font-size: 1.5rem;
+    margin: 5px 0;
+  }
+  .container p {
+    margin: 5px 0;
+  }
+
+  .container button {
+    background-color: #c50707;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: large;
+    border-radius: 30px;
+  }
+  
+  .container button:hover {
+    background-color: #941b8c;
+  }
+  
+  .image {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 5%;
+    margin: 0%;
+  }
